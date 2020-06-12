@@ -31,6 +31,14 @@
 }
 
 @media only screen and (max-width: 767px){
+    header{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    
+}
     nav { z-index: 999999;}
     body{ font-size: 16px; }
     section {padding: 30px 0;}
